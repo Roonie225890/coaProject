@@ -17,8 +17,8 @@ use App\Product;
 // Route::middleware('auth:api')->get('/user', function (Request $request) {
 //     return $request->user();
 // });
-Route::get('/products', 'ApiController@index');
-Route::get('products/{id}','ApiController@show'); 
+Route::get('/products', 'ApiController@getAll');
+Route::get('products/{id}','ApiController@getOne'); 
 
 
 // Route::get('products', function() {

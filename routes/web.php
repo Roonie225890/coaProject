@@ -23,6 +23,8 @@ Route::middleware(['auth'])->group(function () {
 
   Route::resource('users', 'UsersController');
 
+  Route::get('/api', 'ApiController@index')->name('api');;
+
   Route::resource('products', 'ProductsController');
 
 });

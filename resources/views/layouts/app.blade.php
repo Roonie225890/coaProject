@@ -45,11 +45,11 @@
 
                         <!-- <li class="nav-link">
                             <a href="{!! route('comments.index') !!}">Comments</a>
-                        </li>
+                        </li>-->
 
                         <li class="nav-link">
-                            <a href="{!! route('users.index') !!}">Users</a>
-                        </li> -->
+                            <a href="{!! route('api') !!}">API</a>
+                        </li>
 
                         <li class="nav-link">
                             <a href="{!! route('products.index') !!}">Products</a>

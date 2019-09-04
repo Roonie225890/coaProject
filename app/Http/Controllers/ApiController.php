@@ -8,14 +8,21 @@ use App\Product;
 class ApiController extends Controller
 {
 
-    public function index()
+  public function index()
+  {
+
+    return view('api');
+
+  }
+
+    public function getAll()
     {
       $data = Product::all();
 
       return $data;
     }
 
-    public function show($id)
+    public function getOne($id)
     {
       $data = Product::find($id);
 
