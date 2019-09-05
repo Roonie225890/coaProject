@@ -25,7 +25,7 @@
     <div id="app" class="pb-5">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand d-flex" href="{{ url('/home') }}">
+                <a class="navbar-brand d-flex" href="{{ url('/') }}">
                   <div><img src="/svg/watermelonLogo.svg" style="height: 30px;" class="pr-2 pt-1"></div>
                   <div>行政院農業委員會資料開放平台</div>
                 </a>

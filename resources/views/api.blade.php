@@ -3,7 +3,7 @@
 <div class="container pt-5">
   <dl class="row">
   <dt class="col-sm-3">URL</dt>
-  <dd class="col-sm-9"><p>http://127.0.0.1:8000/api/products</p></dd>
+  <dd class="col-sm-9"><p>http://ec2-13-114-63-103.ap-northeast-1.compute.amazonaws.com/api/products</p></dd>
   <dt class="col-sm-3">參數(選填)</dt>
   <dd class="col-sm-9"><p>{ID}</p></dd>
 
