@@ -140,18 +140,15 @@ class ProductsController extends Controller
      */
     public function destroy(Product $product)
     {
-    //       $findProduct = Product::find( $product->id);
-    // if($findProduct->delete()){
-    //
-    //         //redirect
-    //         return redirect()->route('products.index')
-    //         ->with('success' , 'Product deleted successfully'.$product->id);
-    //     }
-    //
-    //     return back()->withInput()->with('error' , 'Product could not be deleted');
-    $product->delete();
 
-        return redirect()->route('products.index')
-                        ->with('success','Product deleted successfully');
+    if($product->delete()){
+
+            //redirect
+            return redirect()->route('products.index')
+            ->with('success' , 'Product deleted successfully'.$product->name);
+        }
+
+        return back()->withInput()->with('error' , 'Product could not be deleted');
+
     }
 }
